@@ -14,8 +14,6 @@ project:
   top_module:  "tt_um_example"
 
   # List your project's source files here.
-  # Source files must be in ./src and you must list each source file separately, one per line.
-  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
     - "project.v"
 
@@ -31,11 +29,11 @@ pinout:
   ui[6]: ""
   ui[7]: ""
 
-  # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  # Outputs (আমাদের ৪-বিট কাউন্টারের আউটপুটগুলো এখানে যুক্ত করা হলো)
+  uo[0]: "Count Bit 0"
+  uo[1]: "Count Bit 1"
+  uo[2]: "Count Bit 2"
+  uo[3]: "Count Bit 3"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
